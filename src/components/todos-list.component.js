@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const Todo = props => (
-    <tr>
-        <td className={props.todo.todo_completed ? 'completed' : ''}>{props.todo.todo_description}</td>
+    <tr className={'text-white'}>
+        <td  className={props.todo.todo_completed ? 'completed' : ''}>{props.todo.todo_description}</td>
         <td className={props.todo.todo_completed ? 'completed' : ''}>{props.todo.todo_responsible}</td>
         <td className={props.todo.todo_completed ? 'completed' : ''}>{props.todo.todo_priority}</td>
         <td>
@@ -38,11 +38,11 @@ export default class TodosList extends Component {
 
     render() {
         return (
-            <div>
+            <div className={'text-white'}>
                 <h3>Todos List</h3>
                 <table className="table table-striped" style={{ marginTop: 20 }} >
                     <thead>
-                    <tr>
+                    <tr className={'text-white'}>
                         <th>Description</th>
                         <th>Responsible</th>
                         <th>Priority</th>
