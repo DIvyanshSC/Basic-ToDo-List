@@ -1,3 +1,29 @@
+# Basic Info
+This is a simple ToDo list app where you can add your everyday tasks for accessibility. You can add or even edit previously added tasks.<br>
+Whenever you mark a task as finished, it will have a line over the text details(Images attached below)
+
+## A basic Todo List created using :
+
+1. HTML, CSS, Javascript
+2. Bootstrap
+3. React(create-react-app)
+4. Node.js
+5. MongoDB
+
+
+### Commit 1 - Turned to dark mode
+
+Home<br><br>
+![image](https://user-images.githubusercontent.com/80683137/132742701-d503d5ae-6caf-4522-ac34-ef645693555e.png)
+
+Create ToDo<br><br>
+![image](https://user-images.githubusercontent.com/80683137/132742751-74a2b98c-8a11-477c-88b3-8fc98ac957ea.png)
+
+Edit ToDo<br><br>
+![image](https://user-images.githubusercontent.com/80683137/132743004-035ed677-a62a-4802-af93-2c46648a3a01.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
